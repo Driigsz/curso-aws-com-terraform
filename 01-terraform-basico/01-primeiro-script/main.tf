@@ -7,8 +7,10 @@ resource "aws_s3_bucket" "teste-bucket" {
     acl    = "private"
 
     tags = {
-      Name        = "My bucket"
+      Name        = "My first Terraform bucket"
       Environment = "Dev"
-      Managedby = "Terraform"
+      ManagedBy   = "Terraform"
+      Owner       = "Rodrigo Gomes"
+      UpdatedAt   = "2025-05-05"
     }
 }
