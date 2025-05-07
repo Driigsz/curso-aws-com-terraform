@@ -4,7 +4,7 @@ variable "aws_region" {
   description = ""
 }
 
-variable "profile" {
+variable "aws_profile" {
   type        = string
   default     = "tf014"
   description = ""
